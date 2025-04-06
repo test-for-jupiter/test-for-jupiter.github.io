@@ -1,1 +1,8 @@
-<p>hello world</p>
+.textbox {vertical-align:-6px}
+.textboxp1 {vertical-align:-4px}
+.menuspace {vertical-align:-4px}
+.cellv {vertical-align:-4px}
+
+@media print {
+.page, .printmargin {width:8in}  /* prevent website from resizing */
+}
