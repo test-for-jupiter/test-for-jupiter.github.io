@@ -332,7 +332,7 @@ textarea {padding:0px 5px; line-height:16px; background-color:white; color:black
 .stickerpicker svg {display:block; opacity:0.3;}
 .stickerpicker svg:hover {opacity:0.7;}
 .stickerpicker div {border-radius:5px}
-.menusticker {width:18px; height:18px; margin:-1px;}
+.menusticker {width:50%; height:50%; margin:0%;}
 
 /* PRINT */
 .blue {background-color:#f0f0ff}
