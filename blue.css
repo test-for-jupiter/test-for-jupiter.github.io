@@ -1,6 +1,7 @@
 /* BLUE */
 ul{
     list-style-type:none;
+    margin-right:50%;
 }
 /* gray 95  (bg) - see darkercolor.css */
 body, .bgcolor, #pagebuttons, .progspace {background-color:hsl(0,0%,95%)}
