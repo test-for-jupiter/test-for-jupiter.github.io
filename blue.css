@@ -1,1 +1,101 @@
-<p>hello world</p>
+/* BLUE */
+
+/* gray 95  (bg) - see darkercolor.css */
+body, .bgcolor, #pagebuttons, .progspace {background-color:hsl(0,0%,95%)}
+#submast, #minisubmast {background:linear-gradient(to top, hsla(0,0%,95%,0) 0px, hsla(0,0%,95%,1) 10px)}
+#tipbox {border:2px solid hsl(0,0%,95%)}
+.bgborder, .graybord {border-color:hsl(0,0%,95%)}
+.planmask {background:linear-gradient(to right, hsl(0,0%,95%) 40px, transparent 40px)}
+.lessonsubject {background-color:hsl(0,0%,95%)}
+.lessonnoclass {background-color:hsl(0,0%,90%)}
+
+/* aqua 25  (logo,btn) */
+.btn, .dimbtn, .btncolor, .menuabtndark, #logobg1, #logobg2, #loginlogobg, .toptab1:hover, .toptab1hi, .navrow:hover, .classtab:hover, .classsemi:hover, .darkhi:hover, .btntran:hover, .btntranlit, .darker, #podprogspace, .jupbtnlit, .jupbtn:hover, .caldate:hover, .caldim:hover, .caltoday, .btnllit, .findbg .rowhi:hover, .xhover, #mailcount
+	{background-color:hsl(190,100%,25%)}
+.poduidark {background-color:hsl(190,100%,25%) !important}
+.logotext {color:hsl(190,100%,25%)}
+@keyframes glowbtn {
+	0%,40%   {background-color:hsl(190,60%,50%)}
+	60%,100% {background-color:hsl(190,100%,25%)}
+}
+/* aqua 32  (bar1,darkbox) */
+#bar1, #sidebar, .navlist, .topnav1list, .navtab, .navtabdim, .darkbox, .dark, .darkhi, #tipbox, .topnav2list .navlit, #loginbar1, .minibar, #podbar1, #podbar2, .podbtnrim, .jupbtns, .calbox, #busybar, .findbg, #touchnavbtn, #opsnav .tabcurve
+	{background-color:hsl(190,85%,32%)}
+a, .hyperlink, .clink:hover, color, .colortext, .btnl {color:hsl(190,85%,32%)}
+.darkbox a, .darkbox .hyperlink, .dark .hyperlink, .darkbox .colortext {color:hsl(175,100%,44%) !important} /* green 44 */
+.alert a, .alert .hyperlink {color:hsl(190,85%,32%) !important}
+.borderlit {border-color:hsl(190,85%,32%)}
+/* aqua 38 */
+.btn:hover, .btnlit, .classsemi {background-color:hsl(190,85%,38%) !important}
+/* aqua 42 */
+#findbox {border-color:hsl(190,75%,42%)}
+/* aqua 50  (bar2) */
+#bar2, #leftnav, .tabcurve, .navlit, .classlit, .rowlit, .rowlit td, .menulit, .lit, .lit td, .topnav2list, .btnl:hover, .darkbox .btn, .darkbox .dimbtn, .dark .btn, .dark .dimbtn, #podbar1 .btn, .podbtn, .podbtnbig, .podopt0, .podopt1, .callit, .sellit, #busydot, .findbg .rowlit, #touchnavbtn:hover, #opsnav .tab:hover, #mailcount:hover
+	{background-color:hsl(190,60%,50%)}
+.iconstroke, .iconstrokeh {stroke:hsl(190,60%,50%)}
+.iconfill, .iconfillh, .menudot {fill:hsl(190,60%,50%)}
+/* aqua 62  (widgets) */
+.tab:hover, .toptab2:hover, .toptab2hi, .topnav2list .navrow:hover, .darkbox .btn:hover, .dark .btn:hover, #podbar1 .btn:hover, .podbtn:hover, .podbtnbig:hover, .podoptlit, .podopthi:hover, .selhi, .touchnavlit
+	{background-color:hsl(190,60%,62%)}
+.textbox, .textboxp1, .menuclosed, .menuopenbox, .menuabtn, .menulist, .menualist, .border, textarea, .darkbox .calbox
+	{border-color:hsl(190,60%,62%)}
+.placeholder {color:hsl(190,60%,62%)}
+.widgetstroke {stroke:hsl(190,60%,62%); border-color:hsl(190,60%,62%);}
+.widgetfill {fill:hsl(190,60%,62%)}
+/* aqua 90 */
+.shaded {background-color:hsl(190,60%,90%)}
+
+/* green 27 */
+.podchoice:hover .podhandlel, .podmatch:hover .podhandler, .podsort:hover .podhandler, .podchoicelit .podhandlel, .podmatchlit .podhandler, .podsortlit .podhandler, .podhandlea .podhandler, .podinbtn:hover, .podinbtnlit, .seatrollchanged
+	{background-color:hsl(175,100%,27%)}
+.podchoice:hover .speaksvg, .podchoicelit .speaksvg {fill:hsl(175,100%,27%)}
+@keyframes listenbtnglow {0%,100% {background-color:hsl(175,100%,40%)} 50% {background-color:hsl(175,100%,27%)}}
+/* green 34 */
+.seat, .blockhi, .blockun, .colorbg {background-color:hsl(175,100%,34%) !important}
+.unseat, box, .pod td, .explanation, .annotation {border-color:hsl(175,100%,34%)}
+/* green 40  (graph) */
+.podhandlel, .podhandler, .podinbtn, .graph, .graphbar, .progbar, .blockhi:hover
+	{background-color:hsl(175,100%,40%) !important}
+#keypad td:hover, .keylock
+	{background-color:hsl(175,100%,40%) !important}
+.podchoice .speaksvg, .podchoiceun .speaksvg, .podkeyicon:hover {fill:hsl(175,100%,40%)}
+/* green 46 - see darkerblue.css */
+.podchoice:hover .podchoicer, .podmatch:hover .podchoicem, .podsort:hover .podchoicel, .podchoicelit .podchoicer, .podmatchlit .podchoicem, .podstemlit .podchoicel, .podsortlit .podchoicel, #podprogbar, #keypad td
+	{background-color:hsl(175,100%,46%)}
+#keypad td.unlit {background-color:hsl(175,100%,46%) !important}
+.textboxpod {border-color:hsl(175,100%,46%)}
+.podkeyicon {fill:hsl(175,100%,46%)}
+::selection {background-color:hsl(175,100%,46%)}  /* breaks rule in firefox */
+.mq-focused {box-shadow:0px 0px 0px 2px hsl(175,100%,46%)}
+.mq-editable-field .mq-selection, .mq-editable-field .mq-selection .mq-non-leaf, .mq-editable-field .mq-selection .mq-scaled {background: hsl(175,100%,46%) !important}
+@keyframes glow {0%,100% {background-color:hsl(175,100%,46%)} 50% {background-color:hsl(175,100%,43%)}}
+/* green 55  (hilite) */
+.rowhi:hover, .menurow:hover, .hi:hover, .hilite, .graphmarklit, .seatrollhi, .podchoicer, .podchoicel, .podchoicem, box, .pod td
+	{background-color:hsl(175,100%,55%)}
+/* green 44 - see above */
+
+/* yellow 85  (alert) */
+.alert, .alertcolor {background-color:hsl(60,100%,85%) !important; color:black !important;}
+
+/* white */
+.darkbox, .dark, .darkhi, .navlist, .topnav1list, .topnav2list, .navtab, .btn, .btncolor, .tab, .tab a, .minitab, #sidebar, .rowlit, .menulit, .lit, .toptab1, .toptab1hi, .toptab2, .toptab2hi, .toptabnull, #text_find, #tipbox, .btnl:hover, .dark .btnl, .btnllit, #podbar1, #podbar2, .jupbtns, .callabel, .calhead, .caldate, .caltoday, .callit, .seat, .seatrollchanged, .blockhi, .blockun, .findbg, .findbg .rowhi:hover, .lit .colortext, .colorbg
+	{color:white}
+.mininavwidget, .hi:hover .progspace {background-color:white}
+.seat, .seatphoto, .unseatphoto {border-color:white}
+.podbtn, .podbtnbig, .podopt0, .podopt1
+	{stroke:white; fill:white; color:white;}
+.btnfill, .calwidget {fill:white; stroke:white;}
+.btnstroke {stroke:white; fill:none;}
+.rowhi:hover, .hi:hover, .seatrollhi {color:black}
+.menuicon, .combostroke {stroke:white}
+.dimbtn, .tabdim, .minibar .dim, .navdim, .navtabdim, .caldim, #toptab1space .dim
+	{color:hsla(0,0%,100%,0.5)} /* transparent white */
+.dimbtn svg
+	{opacity:0.5}
+.darkbox .dim, .dark .dim, .lit .dim, .rowlit .dim, .menulit .dim, .seat .dim, .seatrollchanged .dim, .findbg .dim, .blockhi .dim
+	{color:hsla(0,0%,100%,0.6)}  /* transparent white */
+.dim, .menurow .dim, .menulabel .dim, .menulabel2 .dim, .normaltext .dim, .seatrollhi .dim
+	{color:hsla(0,0%,0%,0.4)}  /* transparent black  (keep this rule below white) */
+.iconstrokeh:hover {stroke:black}
+.iconfillh:hover {fill:black}
+.planedge {background:linear-gradient(to left, hsla(0,0%,100%,0) 0px, hsla(0,0%,100%,1) 10px)}
