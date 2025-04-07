@@ -8,8 +8,12 @@ ul{
 }
 
 button li option{
-	width: 50px;
-	height: 50px;
+	width: 100px;
+	height: 100px;
+}
+
+.persontype .button{
+	background: #086c84;
 }
 
 /* gray 95  (bg) - see darkercolor.css */
