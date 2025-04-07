@@ -3,10 +3,6 @@ ul{
     list-style-type:none;
 }
 
-button{
-    margin-left:40%;
-}
-
 button option{
 	width: 100px;
 	height: 100px;
