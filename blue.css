@@ -28,6 +28,12 @@
 	color: lime;
 }
 
+.interface{
+	width: 60%;
+	height: 10%;
+	margin: auto;
+}
+
 /* gray 95  (bg) - see darkercolor.css */
 body, .bgcolor, #pagebuttons, .progspace {background-color:hsl(0,0%,95%)}
 #submast, #minisubmast {background:linear-gradient(to top, hsla(0,0%,95%,0) 0px, hsla(0,0%,95%,1) 10px)}
