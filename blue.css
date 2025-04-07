@@ -1,17 +1,13 @@
 /* BLUE */
-.rcorners{
-  left-margin: 300px;
-}
-	
 ul{
     list-style-type:none;
 }
 
-.navbar{
-    margin-left:70%;
+button{
+    margin-left:40%;
 }
 
-button li option{
+button option{
 	width: 100px;
 	height: 100px;
 }
