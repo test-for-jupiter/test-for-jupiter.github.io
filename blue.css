@@ -7,6 +7,11 @@
 	display: inline-block;
 }
 
+.nav-container{
+	display: flex;
+	justify-content: space-between;
+}
+
 .tab{
 	font-size:25px; 
 	background-color:#086c84; 
