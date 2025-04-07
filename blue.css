@@ -1,8 +1,10 @@
 /* BLUE */
-ul{
+.right-side, .left-side{
     list-style-type:none;
-    margin: auto;
-    width: 70%;
+}
+
+.right-side li, .left-side li{
+	display: inline-block;
 }
 
 /* gray 95  (bg) - see darkercolor.css */
