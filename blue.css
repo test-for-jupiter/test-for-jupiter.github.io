@@ -5,7 +5,8 @@ ul{
     width: 50%;
 }
 option{
-    left-margin: 40%;
+    margin: auto;
+    width: 50%;
 }
 
 /* gray 95  (bg) - see darkercolor.css */
