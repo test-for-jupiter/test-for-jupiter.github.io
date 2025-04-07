@@ -100,7 +100,7 @@ a, .hyperlink, .clink:hover, color, .colortext, .btnl {color:hsl(190,85%,32%)}
 .seat, .seatphoto, .unseatphoto {border-color:white}
 .podbtn, .podbtnbig, .podopt0, .podopt1
 	{stroke:white; fill:white; color:white;}
-.btnfill, .calwidget {fill:white; stroke:white;}
+.btnfill, .calwidget {fill:#086c84; stroke:white;}
 .btnstroke {stroke:white; fill:none;}
 .rowhi:hover, .hi:hover, .seatrollhi {color:black}
 .menuicon, .combostroke {stroke:white}
