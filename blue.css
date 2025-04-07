@@ -1,9 +1,12 @@
 /* BLUE */
 ul{
     list-style-type:none;
-    margin-left:40%;
 }
 
+.rcorners{
+    left-margin: 40;
+}
+	
 nav{
     margin-left:75%;
 }
