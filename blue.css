@@ -3,6 +3,9 @@ ul{
     list-style-type:none;
     left-margin: 40%;
 }
+option{
+    left-margin: 40%;
+}
 
 /* gray 95  (bg) - see darkercolor.css */
 body, .bgcolor, #pagebuttons, .progspace {background-color:hsl(0,0%,95%)}
