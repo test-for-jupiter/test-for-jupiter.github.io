@@ -1,20 +1,7 @@
 /* BLUE */
 ul{
     list-style-type:none;
-    margin-right:50%;
-}
-
-.container {
-  display: flex;
-  justify-content: center;
-  width: 99vw;
-}
-#rcorners4 {
-  border-radius: 15px;
-  background: #73AD21;
-  padding: 20px;
-  width: 200px;
-  height: 150px;
+    margin-left:50%;
 }
 
 /* gray 95  (bg) - see darkercolor.css */
