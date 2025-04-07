@@ -20,7 +20,7 @@
 	justify-content: space-between;
 }
 
-.tab{
+.tab, .help-btn{
 	font-size:15px; 
 	background-color:#086c84; 
 	color:green; 
