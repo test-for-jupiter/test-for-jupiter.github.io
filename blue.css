@@ -7,6 +7,13 @@
 	display: inline-block;
 }
 
+.tab{
+	font-size:25px; 
+	background-color:#086c84; 
+	color:green; 
+	border-radius:50px;
+}
+
 /* gray 95  (bg) - see darkercolor.css */
 body, .bgcolor, #pagebuttons, .progspace {background-color:hsl(0,0%,95%)}
 #submast, #minisubmast {background:linear-gradient(to top, hsla(0,0%,95%,0) 0px, hsla(0,0%,95%,1) 10px)}
