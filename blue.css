@@ -49,6 +49,10 @@ body{
 	border: 1px solid #086c84;
 }
 
+.help-btn, .login-btn{
+	margin-bottom: 500px;
+}
+
 .logo{
 	background-color:#086c84; 
 	border-radius:50px;
