@@ -8,10 +8,11 @@ body{
 }
 
 .right-side li, .left-side li{
-	display: inline-block;
+	  display: flex;
 }
 
 .nav-container{
+	display: flex;
 	margin-top: 0px;
 	border-radius: 0%;
 	background: #0A8097;
