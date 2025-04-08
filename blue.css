@@ -24,6 +24,10 @@ body{
   	height: 15px;
 }
 
+.right-side{
+	left-margin: 75%;
+}
+
 .tab, .help-btn, .login-btn{
 	font-size:15px; 
 	background-color:#086c84; 
