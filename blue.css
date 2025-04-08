@@ -26,14 +26,15 @@ body{
 }
 
 .right-side{
-	margin-left: 0px;
 	margin-top: 0;
-	margin-bottom: 500px;
-	margin-right: 1200px;
+	margin-right: 0;
+	margin-bottom: 800px;
+	margin-left: 1200px;
 }
 
 .left-side{
-	margin-top: 800px;
+	margin-bottom: 800px;
+	margin-right: 1200px;
 }
 
 .tab, .help-btn, .login-btn{
