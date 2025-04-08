@@ -38,6 +38,10 @@ body{
 	border: 6px solid #086c84;
 }
 
+.help-btn, .login-btn{
+	margin: auto;
+}
+
 .interface{
 	width: 550px;
 	height: 400px;
