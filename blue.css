@@ -5,7 +5,7 @@ body{
 	
 .right-side, .left-side, .interface{
     list-style-type:none;
-    font-family: arial;
+    font-family: sans-serif;
 }
 
 .right-side li, .left-side li{
