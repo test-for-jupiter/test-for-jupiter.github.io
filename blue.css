@@ -1,4 +1,8 @@
 /* BLUE */
+body{
+	margin: 0;
+}
+	
 .right-side, .left-side, .interface{
     list-style-type:none;
 }
