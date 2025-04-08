@@ -25,7 +25,8 @@ body{
 }
 
 .right-side{
-	margin-left: 700px;
+	margin-left: 850px;
+	margin-top: 0;
 }
 
 .tab, .help-btn, .login-btn{
