@@ -150,7 +150,7 @@ a, .hyperlink, .clink:hover, color, .colortext, .btnl {color:hsl(190,85%,32%)}
 .iconstroke, .iconstrokeh {stroke:hsl(190,60%,50%)}
 .iconfill, .iconfillh, .menudot {fill:hsl(190,60%,50%)}
 /* aqua 62  (widgets) */
-.tab:hover, .toptab2:hover, .toptab2hi, .topnav2list option:hover, .darkbox .btn:hover, .dark .btn:hover, #podbar1 .btn:hover, .podbtn:hover, .podbtnbig:hover, .podoptlit, .podopthi:hover, .selhi, .touchnavlit
+.tab:hover, .login-btn:hover, .help-btn:hover, .toptab2:hover, .toptab2hi, .topnav2list option:hover, .darkbox .btn:hover, .dark .btn:hover, #podbar1 .btn:hover, .podbtn:hover, .podbtnbig:hover, .podoptlit, .podopthi:hover, .selhi, .touchnavlit
 	{background-color:hsl(190,60%,62%)}
 .textbox, .textboxp1, .menuclosed, .menuopenbox, .menuabtn, .menulist, .menualist, .border, textarea, .darkbox .calbox
 	{border-color:hsl(190,60%,62%)}
