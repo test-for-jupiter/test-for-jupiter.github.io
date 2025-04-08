@@ -35,13 +35,6 @@ body{
 	width: 100px;
 }
 
-.left-side{
-	margin-right: 1450px;
-	margin-bottom: 800px;
-	margin-left: 0;
-	margin-top: 0;
-}
-
 .tab{
 	font-size:19px; 
 	background-color:#086c84; 
@@ -76,6 +69,10 @@ body{
 	padding-left: 20px;
 	padding-right: 20px;
 	border: 1px solid #086c84;
+	margin-right: 1450px;
+	margin-bottom: 800px;
+	margin-left: 0;
+	margin-top: 0;
 }
 
 .student{
