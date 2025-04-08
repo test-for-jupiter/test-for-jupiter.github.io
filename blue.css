@@ -28,7 +28,7 @@ body{
 .right-side{
 	margin-top: 0;
 	margin-right: 0;
-	margin-left: 700px;
+	margin-left: 900px;
 }
 
 .right-side li{
@@ -36,7 +36,7 @@ body{
 }
 
 .left-side{
-	margin-right: 1250px;
+	margin-right: 1450px;
 	margin-bottom: 800px;
 	margin-left: 0;
 	margin-top: 0;
