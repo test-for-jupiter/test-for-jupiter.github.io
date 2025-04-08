@@ -63,7 +63,22 @@ body{
 	padding-right: 20px;
 	border: 1px solid #086c84;
 }
-	
+
+.student{
+	x: 1em;
+}
+.parent{
+	x: 2em;
+}
+.sub{
+	x: 3em;
+}
+.ta{
+	x: 4em;
+}
+.staff{
+	x: 5em;
+}
 
 .help-btn, .login-btn{
 	margin: auto;
