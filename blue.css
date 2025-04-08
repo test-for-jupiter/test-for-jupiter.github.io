@@ -7,7 +7,7 @@ body{
     list-style-type:none;
 }
 
-.right-side li{
+.right-side li, .left-side li{
 	display: inline;
 	margin-top: 0;
 }
