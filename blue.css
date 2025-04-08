@@ -69,19 +69,22 @@ body{
 }
 
 .student{
-	x: 1em;
+	margin-right: 0;
 }
 .parent{
-	x: 2em;
+	margin-right: 0;
+	margin-left: 0;
 }
 .sub{
-	x: 3em;
+	margin-right: 0;
+	margin-left: 0;
 }
 .ta{
-	x: 4em;
+	margin-right: 0;
+	margin-left: 0;
 }
 .staff{
-	x: 5em;
+	margin-left: 0;
 }
 
 .help-btn, .login-btn{
