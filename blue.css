@@ -27,6 +27,7 @@ body{
 
 .right-side{
 	margin-left: 1000px;
+	justify-content: flex-end;
 	margin-top: 0;
 }
 
