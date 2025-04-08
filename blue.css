@@ -32,8 +32,7 @@ body{
 }
 
 .left-side{
-	margin-bottom: 800px;
-	margin-right: 1400px;
+	margin-right: 1200px;
 }
 
 .tab, .help-btn, .login-btn{
@@ -49,6 +48,8 @@ body{
 }
 
 .tab p{
+	background-color:#0A8097; 
+}
 	
 
 .logo{
