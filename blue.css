@@ -29,6 +29,7 @@ body{
 	margin-top: 0;
 	margin-right: 0;
 	margin-left: 700px;
+	width: 100px;
 }
 
 .left-side{
@@ -46,13 +47,6 @@ body{
 	padding-right: 20px;
 	border: 1px solid #086c84;
 }
-
-.tab p{
-	background-color:#0A8097; 
-	list-style-type:none;
-	width: 100px;
-}
-	
 
 .logo{
 	background-color:#086c84; 
