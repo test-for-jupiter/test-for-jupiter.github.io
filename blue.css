@@ -29,8 +29,10 @@ body{
 	margin-top: 0;
 	margin-right: 0;
 	margin-left: 700px;
+}
+
+.right-side li{
 	width: 100px;
-	display: inline;
 }
 
 .left-side{
