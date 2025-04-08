@@ -42,7 +42,7 @@ body{
 	margin-top: 0;
 }
 
-.tab, .help-btn, .login-btn{
+.tab{
 	font-size:19px; 
 	background-color:#086c84; 
 	border-radius:50px;
@@ -55,6 +55,15 @@ body{
 }
 
 .help-btn, .login-btn{
+	font-size:19px; 
+	background-color:#086c84; 
+	border-radius:50px;
+	color: red;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border: 1px solid #086c84;
 	margin-bottom: 500px;
 }
 
