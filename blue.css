@@ -35,10 +35,10 @@ body{
 	background-color:#086c84; 
 	border-radius:50px;
 	color: white;
-	border-top: 2px solid #086c84;
-	border-bottom: 2px solid #086c84;
-	border-left: 6px solid #086c84;
-	border-right: 6px solid #086c84;
+	padding-top: 2px solid #086c84;
+	padding-bottom: 2px solid #086c84;
+	padding-left: 6px solid #086c84;
+	padding-right: 6px solid #086c84;
 }
 
 .help-btn, .login-btn{
