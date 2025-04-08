@@ -88,7 +88,8 @@ body{
 }
 
 .help-btn, .login-btn{
-	margin: auto;
+	margin-right: 800px;
+	margin-bottom: 500px;
 }
 
 .interface{
