@@ -35,7 +35,9 @@
 }
 
 .input{
-	color: ##64c5d8;
+	color: #64c5d8;
+	background: none;
+	border: 2px solid #64c5d8;
 }
 
 /* gray 95  (bg) - see darkercolor.css */
