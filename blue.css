@@ -50,7 +50,7 @@ input{
 	border-radius: 5px;
 }
 
-input::placeholder {
+input::placeholder{
 	color: #64c5d8;
 }
 
