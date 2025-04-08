@@ -12,8 +12,6 @@ body{
 }
 
 .nav-container{
-	display: flex;
-	justify-content: space-between;
 	border-radius: 5%;
 	background: #0A8097;
   	padding-top: 0px;
