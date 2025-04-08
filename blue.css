@@ -7,8 +7,8 @@ body{
     list-style-type:none;
 }
 
-.right-side li, .left-side li{
-	  display: flex;
+.right-side li{
+	  display: inline;
 }
 
 .nav-container{
