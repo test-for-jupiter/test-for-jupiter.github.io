@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+ <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Jupiter Login</title>
@@ -8,12 +8,7 @@
   <link rel="stylesheet" href="chrome.css"/>
   <link rel="stylesheet" href="blue.css"/>
   <style>
-#persontype {
-  border-radius: 50px;
-  background: #086c84;
-  width: 90%;
-  margin: auto;
-}
+
 #rcorners {
   border-radius: 15px;
   background: #ffffff;
@@ -44,7 +39,7 @@
           <li><a href="https://jupitered.com/privacy.html"><p class="tab">Privacy</p></a></li>
           <li><a href="https://jupitered.com/?home=1"><p class="tab">About</p></a></li>
           </ul>
-      </div>
+         </div>
       </div>
     </nav>
   </header>
@@ -54,11 +49,13 @@
      <div class="login-box">
       <div class="tabs">
         <div class="persontype" id="persontype">
-        <a href="student.html"><button class="tab" id="student">Student</button></a>
-        <a href="parent.html"><button class="tab" id="parent">Parent</button></a>
-        <a href="sub.html"><button class="tab" id="sub">Sub</button></a>
-        <a href="ta.html"><button class="tab" id="ta">TA</button></a>
-        <a href="index.html"><button class="tab" id="staff">Staff</button></a>
+          <ul>
+            <a href="student.html"><li>Student</li></a>
+        <a href="parent.html"><li>Parent</li></a>
+        <a href="sub.html"><li>Sub</li></a>
+        <a href="ta.html"><li>TA</li></a>
+        <a href="index.html"><li>Staff</li></a>
+          </ul>
         </div>
       </div>
      </div>
@@ -78,13 +75,11 @@
             <option>Lock screen if idle 60 minutes</option>
           </select></li>
         </ul>
-          <div class="buttons">
+     </form>
+         <div class="buttons">
           <a href="https://login.jupitered.com/login/forgotstaff.php"><button type="button" class="help-btn" id="help-btn">Help Me Login</button></a>
           <button type="submit" class="login-btn" id="login-btn">Login</button>
-          </div>
         </div>
-      </div>
-    </form>
     </div>
   </main>
 </body>
