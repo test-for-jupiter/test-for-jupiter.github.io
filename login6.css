@@ -251,3 +251,94 @@ a:hover, .login-pf a:hover {
 .subtitle {
     color: #555555;
 }
+
+/* ==========================================
+   REACT / STYLED-COMPONENTS PARCHMENT FIX
+   ========================================== */
+
+/* 1. Reset the background and center the card */
+body {
+    background-color: var(--background, #FFFFFF) !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: "Open Sans", Arial, sans-serif;
+}
+
+/* 2. Style the login card container */
+.card-pf {
+    background: #FFFFFF;
+    border-top: 4px solid var(--action-default, #006AA8) !important;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08) !important;
+    border-radius: 4px;
+    padding: 24px;
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* 3. Style the Input Fields (Targeting both the custom classes and standard inputs) */
+input[type="text"], 
+input[type="password"],
+.sc-bBeLUv {
+    width: 100% !important;
+    height: 46px !important;
+    border: 1px solid var(--border, #CFCFCF) !important;
+    border-radius: 4px !important;
+    padding: 10px 14px !important;
+    font-size: 16px !important;
+    background-color: #FFFFFF !important;
+    box-sizing: border-box !important;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+/* Input Focus state */
+input:focus,
+.sc-bBeLUv:focus {
+    outline: none !important;
+    border-color: var(--focusRing, #65B6E6) !important;
+    box-shadow: 0 0 0 3px rgba(101, 182, 230, 0.4) !important;
+    background-color: var(--validation-base-focus, #F0FCFF) !important;
+}
+
+/* 4. Style the "Sign In" Button */
+button#kc-login,
+.sc-fHjqPf {
+    background: var(--action-primary, #226103) !important;
+    color: #FFFFFF !important;
+    border: none !important;
+    border-radius: 5px !important;
+    padding: 12px 24px !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    width: 100% !important;
+    cursor: pointer !important;
+    transition: background 0.2s;
+    height: 48px;
+}
+
+button#kc-login:hover,
+.sc-fHjqPf:hover {
+    background: #174103 !important; /* Slightly darker basil green on hover */
+}
+
+/* 5. Handle Error Input State (Pink background) */
+div[data-validation="error"] input {
+    background-color: var(--validation-base-error, #FFEDED) !important;
+    border-color: var(--colorContext-error, #B51A14) !important;
+}
+
+/* 6. Form helper links (Forgot Password) */
+.login-pf-settings a,
+.sc-dcJsrY {
+    color: var(--action-default, #006AA8) !important;
+    text-decoration: none !important;
+    font-weight: 600;
+}
+
+.login-pf-settings a:hover {
+    text-decoration: underline !important;
+}
