@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+:root {
+    --parchment-color-deep-cerulean: #006AA8;
+    --parchment-color-basil: #226103;
+    --parchment-color-cider: #BF5811;
+    --parchment-color-cherry: #B51A14;
+    --parchment-color-primary-action: var(--parchment-color-basil);
+    --parchment-color-accent: var(--parchment-color-deep-cerulean);
+    --parchment-color-warn: var(--parchment-color-cider);
+    --parchment-color-error: var(--parchment-color-cherry);
+    --pf-global--primary-color--100: var(--parchment-color-accent);
+    --pf-c-button--m-primary--BackgroundColor: var(--parchment-color-basil);
+    --pf-c-button--m-primary--Color: #FFFFFF;
+    --pf-global--FontFamily--text: "Open Sans", Arial, Helvetica, sans-serif;
+    --pf-c-button--BorderRadius: 5px;
+    --pf-c-button--after--BorderRadius: 5px;
+    --pf-global--primary-color--100: var(--parchment-color-accent);
+    --pf-global--FontWeight--bold: 600;
+    --pf-global--link--Color: var(--parchment-color-accent);
+}
+
+.pf-c-form-control {
+    --pf-c-form-control--LineHeight: 38px;
+    --pf-c-form-control--OutlineOffset: -2px;
+    --pf-c-form-control--focus--BorderBottomWidth: 1px;
+}
+
+.pf-c-button {
+    --pf-c-button--m-control--focus--after--BorderBottomColor: var(--parchment-color-accent);
+}
+
+:focus-visible {
+    outline-color: var(--parchment-color-accent);
+}
+
+:where(button,
+input,
+optgroup,
+select,
+textarea) {
+    line-height: var(--pf-c-form-control--LineHeight);
+    outline-color: var(--parchment-color-accent);
+}
+
+.pf-c-form-control, .pf-c-button {
+    border-radius: var(--pf-c-button--BorderRadius);
+}
+
+.pf-c-button {
+    outline-offset: 2px;
+}
+
+.pf-c-button:hover {
+    cursor: pointer;
+}
+
+input.pf-c-form-control {
+    border-color: #cfcfcf;
+}
+
+input.pf-c-form-control:focus {
+    background-color: #f0fcff;
+    box-shadow: var(--parchment-color-accent) 0 0 5px 0;
+    outline-width: 0;
+}
+
+input.pf-c-form-control:focus, input.pf-c-form-control:hover {
+    border-bottom-color: var(--parchment-color-accent);
+}
+
+body {
+    font-size: 16px;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    color: #555555;
+}
+
+.login-pf, .login-pf body {
+    background-image: none;
+    background-color: #FFFFFF;
+}
+
+div.kc-logo-text {
+    background-image: none;
+}
+
+div.kc-logo-text span {
+    display: block;
+}
+
+div.kc-logo-text img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* form controls */
+.login-pf-page .form-control {
+    height: 50px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* generic buttons */
+.btn {
+    font-size: 16px;
+    line-height: 1.2em;
+    border-radius: 5px;
+}
+
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
+    outline-offset: -1px;
+}
+
+/* large buttons */
+.btn-group-lg>.btn, .btn-lg {
+    padding: 14.5px 10px;
+    font-size: 16px;
+    line-height: 1.2em;
+}
+
+/* default buttons */
+.btn-default {
+    background: var(--parchment-color-accent);
+    border-color: var(--parchment-color-accent);
+    color: #FFFFFF;
+}
+
+.btn-default.active, .btn-default:active, .btn-default:focus, .btn-default:hover, .open .dropdown-toggle.btn-default {
+    background: linear-gradient(#0093B2, var(--parchment-color-accent));
+    border-color: var(--parchment-color-accent);
+    color: #FFFFFF;
+}
+
+.btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover, .open>.dropdown-toggle.btn-default.focus, .open>.dropdown-toggle.btn-default:focus, .open>.dropdown-toggle.btn-default:hover {
+    color: #FFFFFF;
+}
+
+/* primary buttons */
+.btn-primary, .pf-c-button.pf-m-primary {
+    background: var(--parchment-color-primary-action);
+    border-color: var(--parchment-color-primary-action);
+}
+
+.pf-c-button.pf-m-primary:hover, .pf-c-button.pf-m-primary:focus-visible {
+    background: linear-gradient(#2d8005, #174103);
+}
+
+.pf-c-button:focus-visible {
+    outline: #65b6e6 solid 4px;
+}
+
+.btn-primary.active, .btn-primary:active, .btn-primary:focus, .btn-primary:hover, .open .dropdown-toggle.btn-primary {
+    background: linear-gradient(#2d8005, #174103);
+    border-color: var(--parchment-color-primary-action);
+}
+
+.btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .open>.dropdown-toggle.btn-primary.focus, .open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover {
+    color: #FFFFFF;
+}
+
+/* links */
+a {
+    color: var(--parchment-color-accent);
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+a:hover, .login-pf a:hover {
+    color: #005A8F;
+}
+
+/* Suppress underline on links visually styled as buttons or navigation controls */
+.pf-c-button,
+.pf-c-button:hover,
+/* Bootstrap button-styled anchors (e.g. frontchannel-logout.ftl "Continue" link) */
+.btn,
+.btn:hover,
+.pf-c-dropdown__menu-item,
+.pf-c-dropdown__menu-item:hover,
+/* Locale trigger anchor â€” id is stable in parchment template.ftl */
+#kc-current-locale-link,
+#kc-current-locale-link:hover,
+/*
+ * Safety net for FTL-loop-rendered social buttons (upstream keycloak.v2 pattern).
+ * Parchment overrides login.ftl with a React component (SocialProviders.tsx) whose
+ * styled-components class already carries text-decoration: none at higher specificity.
+ * This selector matches nothing in the current React-rendered DOM but is retained
+ * as a fallback if the React component is ever replaced with the FTL path.
+ */
+.login-pf-page .login-pf-social-link a,
+.login-pf-page .login-pf-social-link a:hover,
+#reset-login,
+#reset-login:hover {
+    text-decoration: none;
+}
+
+/* social buttons (i.e. login with google) */
+.login-pf-page .login-pf-social-link a {
+    border-radius: 4px;
+    border: 1px solid var(--parchment-color-accent);
+    background: #FFFFFF;
+    color: var(--parchment-color-accent);
+    box-shadow: none;
+}
+
+.login-pf-page .login-pf-social-link a:hover {
+    background: linear-gradient(#0093B2, var(--parchment-color-accent)) !important;
+    color: #FFFFFF;
+}
+
+/* alerts */
+.alert {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+.alert>.pficon {
+    position: static;
+    padding-right: 15px;
+}
+
+/* alert(error) */
+.alert-error {
+    background: var(--parchment-color-error);
+    border-color: var(--parchment-color-error);
+    color: #FFFFFF;
+}
+.pficon-error-circle-o:before {
+    color: inherit;
+}
+
+/* alert(info) */
+.alert-info {
+    background: #555555;
+    border-color: #555555;
+    color: #FFFFFF;
+}
+.alert .pficon-info {
+    color: inherit;
+}
+
+.login-pf-page .login-pf-signup,
+.login-pf-page .card-pf p,
+.subtitle {
+    color: #555555;
+}
