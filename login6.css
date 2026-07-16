@@ -382,3 +382,41 @@ input[aria-invalid="true"]:focus {
 span:has(> svg) { /* Hides SVG-based error icons if applicable */
     display: none !important;
 }
+
+/* ==========================================================================
+   FORCE-REMOVE ALL SYMBOLS & ICONS
+   Strips out pseudo-elements (which render as ❶) and inline icon elements.
+   ========================================================================== */
+
+/* 1. Kill the font-icon pseudo-elements (the main culprit) */
+.pf-c-form__helper-text::before,
+.pf-c-form__helper-text::after,
+.pf-c-form__helper-text-icon::before,
+.pf-c-form__helper-text-icon::after,
+.kc-feedback-text::before,
+.kc-feedback-text::after,
+.pf-m-error::before,
+.pf-m-error::after,
+.pf-c-form-control::before,
+.pf-c-form-control::after {
+    display: none !important;
+    content: none !important;
+}
+
+/* 2. Hide any helper text icon containers */
+.pf-c-form__helper-text-icon,
+.pf-c-form-control__icon {
+    display: none !important;
+    width: 0 !important;
+    height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* 3. Safety blanket: Hide any stray font icons or SVGs inside the login card */
+.card-pf i,
+.card-pf svg,
+.card-pf [class*="pficon-"],
+.card-pf [class*="fa-"] {
+    display: none !important;
+}
