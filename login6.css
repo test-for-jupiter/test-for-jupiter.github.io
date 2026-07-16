@@ -420,3 +420,23 @@ span:has(> svg) { /* Hides SVG-based error icons if applicable */
 .card-pf [class*="fa-"] {
     display: none !important;
 }
+
+/* ==========================================================================
+   HIDE ALL ERROR AND VALIDATION TEXTS
+   Completely removes "Field is Required" and "Please correct the errors below"
+   ========================================================================== */
+
+/* 1. Hide inline validation messages (e.g., "Field is Required") */
+.pf-c-form__helper-text,
+.kc-feedback-text,
+.pf-m-error {
+    display: none !important;
+}
+
+/* 2. Hide global form warning containers (e.g., "Please correct the errors below") */
+#kc-feedback,
+#kc-feedback-wrapper,
+.alert,
+.alert-error {
+    display: none !important;
+}
