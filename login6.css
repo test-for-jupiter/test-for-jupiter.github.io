@@ -343,22 +343,42 @@ div[data-validation="error"] input {
     text-decoration: underline !important;
 }
 
-/* ==========================================================================
-   TARGETED DESKTOP WIDTH RESTORATION
-   Gently expands the layout container to prevent a narrow form.
-   ========================================================================== */
 @media (min-width: 768px) {
-    /* 1. Expand Keycloak's main grid container to a comfortable width */
+    /* 1. Adjusted from 620px down to 500px for a cleaner desktop width */
     .login-pf-page {
-        max-width: 620px !important;
+        max-width: 500px !important; 
         width: 100% !important;
         margin: 0 auto !important;
     }
 
-    /* 2. Ensure the card inside utilizes 100% of this new, wider space */
     .login-pf-page .card-pf {
         width: 100% !important;
         max-width: 100% !important;
         box-sizing: border-box !important;
     }
+}
+
+/* Force error inputs to look normal (like the password box) */
+div[data-validation="error"] input,
+input[aria-invalid="true"] {
+    background-color: #FFFFFF !important;
+    border-color: #CFCFCF !important;
+}
+
+/* Ensure that when you click/focus on it, it still gets the blue focus ring instead of red */
+div[data-validation="error"] input:focus,
+input[aria-invalid="true"]:focus {
+    outline: none !important;
+    border-color: var(--focusRing, #65B6E6) !important;
+    box-shadow: 0 0 0 3px rgba(101, 182, 230, 0.4) !important;
+    background-color: var(--validation-base-focus, #F0FCFF) !important;
+}
+
+/* Hide all warning and error icons next to helper text and form fields */
+.pf-c-form__helper-text-icon,
+.pf-c-form-control__icon,
+[class*="pficon-"],
+[class*="fa-exclamation"],
+span:has(> svg) { /* Hides SVG-based error icons if applicable */
+    display: none !important;
 }
