@@ -344,24 +344,21 @@ div[data-validation="error"] input {
 }
 
 /* ==========================================================================
-   WIDTH & CONTAINMENT OVERRIDES
-   Forces the narrow base card to expand to a comfortable, modern layout.
+   TARGETED DESKTOP WIDTH RESTORATION
+   Gently expands the layout container to prevent a narrow form.
    ========================================================================== */
+@media (min-width: 768px) {
+    /* 1. Expand Keycloak's main grid container to a comfortable width */
+    .login-pf-page {
+        max-width: 620px !important;
+        width: 100% !important;
+        margin: 0 auto !important;
+    }
 
-/* 1. Force the card to a wider desktop view */
-.login-pf-page .card-pf, 
-.card-pf {
-    width: 100% !important;
-    max-width: 600px !important;  /* Expands the narrow 500px default */
-    min-width: 320px !important;  /* Keeps it completely mobile-responsive */
-    padding: 40px !important;     /* Generous breathing room on the sides */
-    box-sizing: border-box !important;
-}
-
-/* 2. Release parent width constraints so the wider card can actually expand */
-#kc-content-wrapper, 
-#kc-login-single-form,
-.login-pf-page .container-fluid {
-    max-width: 100% !important;
-    width: 100% !important;
+    /* 2. Ensure the card inside utilizes 100% of this new, wider space */
+    .login-pf-page .card-pf {
+        width: 100% !important;
+        max-width: 100% !important;
+        box-sizing: border-box !important;
+    }
 }
