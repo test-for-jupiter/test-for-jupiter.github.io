@@ -101,3 +101,37 @@ window.applyStyles = function(domElement, styles) {
     }
   }
 }
+
+/**
+ * 4. Aggressively clears out validation text lines by matching the text content.
+ */
+function hideValidationTextMessages() {
+  // Array of the exact text phrases we want to destroy
+  const targetPhrases = [
+    "field is required",
+    "please correct the errors below"
+  ];
+
+  // Grab all text-bearing elements on the login page
+  const textElements = document.querySelectorAll('p, span, div, label');
+
+  textElements.forEach(element => {
+    // If the element has child elements, skip it so we don't wipe out parent layouts
+    if (element.children.length > 0) return;
+
+    const elementText = (element.textContent || element.innerText || "").trim().toLowerCase();
+
+    // Check if the text matches any of our banned phrases
+    if (targetPhrases.some(phrase => elementText === phrase)) {
+      element.style.display = 'none';
+      element.style.visibility = 'hidden';
+      element.style.height = '0px';
+      element.style.margin = '0px';
+      element.style.padding = '0px';
+    }
+  });
+}
+
+// Run immediately, and also run on a short loop to catch React rendering cycles
+document.addEventListener("DOMContentLoaded", hideValidationTextMessages);
+setInterval(hideValidationTextMessages, 100);
