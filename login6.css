@@ -420,3 +420,34 @@ span:has(> svg) { /* Hides SVG-based error icons if applicable */
 .card-pf [class*="fa-"] {
     display: none !important;
 }
+
+/* ==========================================================================
+   FORM LABEL RED ASTERISK INJECTION
+   ========================================================================== */
+
+/* Target the form labels and inject a bold, red asterisk in front of them */
+.card-pf label::before,
+label[for="username"]::before,
+label[for="password"]::before,
+.pf-c-form__label-text::before {
+    content: "* " !important;
+    color: var(--parchment-color-cherry, #B51A14) !important;
+    font-weight: bold !important;
+    margin-right: 4px !important;
+    display: inline-block !important;
+}
+
+/* ==========================================================================
+   VERTICAL SPACING ADJUSTMENT
+   Aligns the content closer to the top of the screen.
+   ========================================================================== */
+
+body {
+    justify-content: flex-start !important; /* Shims the layout to align to the top instead of center */
+    padding-top: 5vh !important;            /* Creates a clean gap at the very top of the browser */
+}
+
+/* Gently pull the card itself slightly closer to the logo */
+.card-pf {
+    margin-top: 10px !important;
+}
